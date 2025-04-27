@@ -13,7 +13,7 @@ const PASSWORD_CONFIG = {
 // 网站信息配置
 const SITE_CONFIG = {
     name: 'LibreTV',
-    url: 'https://libretv.is-an.org',
+    url: 'https://v.wangk.cn',
     description: '免费在线视频搜索与观看平台',
     logo: 'https://images.icon-icons.com/38/PNG/512/retrotv_5520.png',
     version: '1.0.3'
@@ -36,6 +36,7 @@ const API_SITES = {
     tyyszy: {
         api: 'https://tyyszy.com',
         name: '天涯资源',
+        adult: true
     },
     ckzy: {
         api: 'https://www.ckzy1.com',
@@ -45,23 +46,28 @@ const API_SITES = {
     zy360: {
         api: 'https://360zy.com',
         name: '360资源',
+        adult: true
     },
     wolong: {
         api: 'https://wolongzyw.com',
         name: '卧龙资源',
+        adult: true
     },
     cjhw: {
         api: 'https://cjhwba.com',
         name: '新华为',
+        adult: true
     },
     hwba: {
         api: 'https://cjwba.com',
         name: '华为吧资源',
+        adult: true
     },
     jisu: {
         api: 'https://jszyapi.com',
         name: '极速资源',
         detail: 'https://jszyapi.com'
+        adult: true
     },
     dbzy: {
         api: 'https://dbzy.com',
@@ -70,18 +76,22 @@ const API_SITES = {
     bfzy: {
         api: 'https://bfzyapi.com',
         name: '暴风资源',
+        adult: true
     },
     mozhua: {
         api: 'https://mozhuazy.com',
         name: '魔爪资源',
+        adult: true
     },
     mdzy: {
         api: 'https://www.mdzyapi.com',
         name: '魔都资源',
+        adult: true
     },
     ruyi: {
         api: 'https://cj.rycjapi.com',
         name: '如意资源',
+        adult: true
     },
     jkun: {
         api: 'https://jkunzyapi.com',
