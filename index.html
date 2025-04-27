@@ -289,7 +289,7 @@
                         所有视频均来自第三方API接口。如有侵权，请联系相关内容提供方。
                     </p>
                     <div class="mt-2 flex justify-center md:justify-end space-x-4">
-                        <a href="about.html" class="text-gray-400 hover:text-white text-sm transition-colors">关于我们</a>
+                         <!-- <a href="about.html" class="text-gray-400 hover:text-white text-sm transition-colors">关于我们</a> -->
                         <a href="privacy.html" class="text-gray-400 hover:text-white text-sm transition-colors">隐私政策</a>
                     </div>
                 </div>
@@ -374,18 +374,18 @@
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "麒麟视频",
-        "url": "https://麒麟视频.is-an.org/",
+        "url": "https://v.wangk.cn/",
         "description": "免费在线视频搜索与观看平台",
         "potentialAction": {
             "@type": "SearchAction",
-            "target": "https://麒麟视频.is-an.org/?s={search_term_string}",
+            "target": "https://v.wangk.cn/?s={search_term_string}",
             "query-input": "required name=search_term_string"
         }
     }
     </script>
 
     <!-- 引入纯 JS sha256（HTTP 下依然可用） -->
-    <script src="https://cdn.jsdelivr.net/npm/js-sha256@0.9.0/build/sha256.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/js-sha256/0.11.0/sha256.min.js"></script>
     <script>
         // 保存原始 js‑sha256 实现，避免被 password.js 覆盖
         window._jsSha256 = window.sha256;
